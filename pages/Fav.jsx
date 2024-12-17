@@ -29,7 +29,7 @@ const Fav = () => {
             fav.length === 0? <p className='fav-emp'>No items added to favorities yet!</p>:
             <div className="fav-cont">
                 {fav.map((item, index) => (
-                    <div key={index} className="fav-item">
+                    <div key={item.idMeal} className="fav-item">
                         <img onClick={()=>navigate(`/details/${item.idMeal}`)} src={item.strMealThumb} alt={item.name} />
                         <div className="fav-wrap">
                             <h3>{item.strMeal}</h3>

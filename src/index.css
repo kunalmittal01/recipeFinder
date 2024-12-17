@@ -181,6 +181,7 @@ nav p a:hover {
   justify-content: space-around;
   align-items: center;
   gap: 1.5rem;
+  overflow: auto;
 }
 
 .food-details h2 {
@@ -203,7 +204,7 @@ nav p a:hover {
 
 .details-ingred {
   width: 80%;
-  margin: 2.5rem auto;
+  margin: 2.5rem auto 0 auto;
 }
 
 .details-ingred table {

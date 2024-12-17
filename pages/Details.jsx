@@ -81,7 +81,7 @@ const Details = () => {
                                 <tbody>
                     {
                         ingredients.map((ingredient, index) => (
-                                    <tr>
+                                    <tr key={index}>
                                         <td>{measures[index]}</td>
                                         <td>{ingredient}</td>
                                     </tr>
